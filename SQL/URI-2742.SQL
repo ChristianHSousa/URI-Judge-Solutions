@@ -1,0 +1,2 @@
+SELECT a.name, ROUND(a.omega * 1.618,3) as "Fator N" FROM life_registry as a JOIN dimensions as b ON a.dimensions_id = b.id
+WHERE (b.name = 'C875' OR b.name = 'C774') AND UPPER(a.name) like 'RICHARD%';
