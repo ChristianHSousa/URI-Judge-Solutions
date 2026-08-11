@@ -1,0 +1,13 @@
+N = int(input())
+
+matriz = []
+#for _ in range(N):
+#    coordenada = list(map(int, input().split()))
+#    matriz.append(coordenada)
+
+matriz = [
+    [0,0,0,10,10,0],
+    [10,10,0,10,10,0],
+    [10,10,0,10,0,20],
+    [10,10,20,0,10,0]
+]
